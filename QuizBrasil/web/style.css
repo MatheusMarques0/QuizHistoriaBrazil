@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --Branco: #F2F2F2;
+    --Azul: #022873;
+    --Verde: #03A62C;   
+    --VerdeAmarelo: #D2D90D;
+    --Amarelo: #F2CB05;
+}
+
+body{
+    background-color: var(--Azul);
+    background-image: url(background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.904);
+    grid-column-start: 2;
+    border: 3px solid var(--Azul);
+    border-radius: 20px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main > h1{
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.142);
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(24), cursor .4s step-end infinite alternate;
+    margin-bottom: 20px;
+}
+
+/*Cursor piscando*/
+@keyframes cursor {
+    50% { border-color: transparent}
+}
+
+@keyframes typing {
+    from {width: 0}    
+}
+
+.blue{
+    color: #022873;
+}
+.green{
+    color: #03A62C;
+}
+
+.yellow{
+    color: var(--Amarelo)
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Cadastro{
+    margin-bottom: 10px;
+    background-color: var(--VerdeAmarelo);
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.Cadastro > h1{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#nome{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+    display: flex;
+}
+
+#email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    display: flex;
+}
+
+.Cadastro input{
+    color: black;
+    background-color: rgba(163, 163, 163, 0.267);
+    padding-left: 6px;
+    padding-right: 2px;
+    border-radius: 50px;
+    margin-left: 5px;
+    border: none;
+    border: 2px solid grey;
+    flex: auto;
+}
+
+.perguntas{
+    background-color: var(--Branco);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 5px;
+}
+
+.perguntas > h1{
+    font-size: 18px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-bottom: 10px;
+    background-color: rgba(22, 186, 0, 0.542);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.pergunta{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+#A{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#B{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#C{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#D{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.pergunta:hover{
+    background-color: #022873;
+    transform: translateY(-3px) scale(1.02);
+}
+
+.enviar{
+    text-align: center;
+}
+
+.enviar input{
+    background-color: #022873;
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.203);
+    transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.enviar input:hover{
+    background-color: #001745;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0px 0px 20px rgb(5, 249, 224);
+}
