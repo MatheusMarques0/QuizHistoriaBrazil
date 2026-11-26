@@ -9,7 +9,7 @@ public class ConectarBD {
         Connection conexao=null;
         try{
             Class.forName("com.mysql.jdbc.Driver");                 
-            conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/pesquisabd","root","");
+            conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/QuizDB","root","");
             return conexao;
         }catch( SQLException ex){
             System.out.println("error: " + ex);
