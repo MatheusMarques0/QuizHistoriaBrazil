@@ -15,6 +15,8 @@
     <body>
          
              <%
+                 request.setCharacterEncoding("UTF-8");
+                 
                   String nome=request.getParameter("nome");
                   String mail = request.getParameter("em");
                   int pg1=Integer.parseInt(request.getParameter("r1"));

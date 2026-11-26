@@ -15,6 +15,10 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body class="w3-light-grey w3-padding-large">
+        <%
+            request.setCharacterEncoding("UTF-8");
+            response.setCharacterEncoding("UTF-8");
+        %>
         <div class="w3-container w3-white w3-padding-32 w3-card w3-round-large" style="max-width:900px; margin:auto;"
            <h1 class="w3-center w3-text-teal">Listar Pesquisa</h1>
            <table class="w3-table w3-striped w3-bordered w3-hoverable w3-white">
