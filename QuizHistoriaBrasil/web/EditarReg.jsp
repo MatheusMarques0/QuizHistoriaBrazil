@@ -30,7 +30,10 @@
                   int pg9=Integer.parseInt(request.getParameter("r9"));
                   int pg10=Integer.parseInt(request.getParameter("r10"));
                 %>
-                <% EditarDAO edit = new EditarDAO(); %>
+                <% EditarDAO edit = new EditarDAO(); 
+                edit.Editar(nome, mail, pg1, pg2, pg3, pg4, pg5,
+                pg6, pg7, pg8, pg9, pg10);
+                %>
                  <a href="index.html">Voltar</a>
          
         

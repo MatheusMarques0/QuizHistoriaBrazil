@@ -8,7 +8,7 @@ public class ConectarBD {
      public static Connection conectar() throws ClassNotFoundException{
         Connection conexao=null;
         try{
-            Class.forName("com.mysql.jdbc.Driver");                 
+            Class.forName("com.mysql.cj.jdbc.Driver");                 
             conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/QuizDB","root","");
             return conexao;
         }catch( SQLException ex){

@@ -47,18 +47,18 @@
              
             %>
             <form method="post" action="EditarReg.jsp">
-            Nome: <input type="text" name="nome" value=<%= nom%>><p>
-            Email: <input type="text" name="em" value=<%= email%>><p>
-            Resposta 1: <input type="text" name="r1" value=<%= resp1%>><p>
-            Resposta 2: <input type="text" name="r2" value=<%= resp2%>><p>
-            Resposta 3: <input type="text" name="r3" value=<%= resp3%>><p>
-            Resposta 4: <input type="text" name="r4" value=<%= resp4%>><p>
-            Resposta 5: <input type="text" name="r5" value=<%= resp5%>><p>
-            Resposta 6: <input type="text" name="r6" value=<%= resp6%>><p> 
-            Resposta 7: <input type="text" name="r7" value=<%= resp7%>><p>                
-            Resposta 8: <input type="text" name="r8" value=<%= resp8%>><p>                
-            Resposta 9: <input type="text" name="r9" value=<%= resp9%>><p>              
-            Resposta 10: <input type="text" name="r10" value=<%= resp10%>><p>                
+            Nome: <input type="text" name="nome" value="<%= nom%>"><p>
+            Email: <input type="text" name="em" value="<%= email%>"><p>
+            Resposta 1: <input type="text" name="r1" value="<%= resp1%>"><p>
+            Resposta 2: <input type="text" name="r2" value="<%= resp2%>"><p>
+            Resposta 3: <input type="text" name="r3" value="<%= resp3%>"><p>
+            Resposta 4: <input type="text" name="r4" value="<%= resp4%>"><p>
+            Resposta 5: <input type="text" name="r5" value="<%= resp5%>"><p>
+            Resposta 6: <input type="text" name="r6" value="<%= resp6%>"><p> 
+            Resposta 7: <input type="text" name="r7" value="<%= resp7%>"><p>                
+            Resposta 8: <input type="text" name="r8" value="<%= resp8%>"><p>                
+            Resposta 9: <input type="text" name="r9" value="<%= resp9%>"><p>              
+            Resposta 10: <input type="text" name="r10" value="<%= resp10%>"><p>                
                 
                 <button type="submit" >SALVAR ALTERAÇÕES</button><p>
                 
