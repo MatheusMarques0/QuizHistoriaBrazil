@@ -36,6 +36,8 @@
                        <th>r8</th>
                        <th>r9</th>
                        <th>r10</th>
+                       <th>Editar</th>
+                       <th>Excluir</th>
                    </tr>
                </thead>  
                <tbody>
@@ -89,6 +91,8 @@
                        %>
     
                </tbody>
+               </table>
+            </div>
     </body>
 </html>
 

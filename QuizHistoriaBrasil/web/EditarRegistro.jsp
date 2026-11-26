@@ -47,7 +47,7 @@
              
             %>
             <form method="post" action="EditarReg.jsp">
-            Nome: <input type="text" name="nome" value="<%= nom%>"><p>
+            Nome: <input type="text" name="nome" value="<%= nom%>" readonly><p>
             Email: <input type="text" name="em" value="<%= email%>"><p>
             Resposta 1: <input type="text" name="r1" value="<%= resp1%>"><p>
             Resposta 2: <input type="text" name="r2" value="<%= resp2%>"><p>
