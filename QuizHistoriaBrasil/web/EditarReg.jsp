@@ -31,7 +31,6 @@
                   int pg10=Integer.parseInt(request.getParameter("r10"));
                 %>
                 <% EditarDAO edit = new EditarDAO(); %>
-                <a href="<% edit.Editar(nome,mail,pg1,pg2,pg3,pg4,pg5,pg6,pg7,pg8,pg9,pg10);%>"Salvar Alterações</a>
                  <a href="index.html">Voltar</a>
          
         

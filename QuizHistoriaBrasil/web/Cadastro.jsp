@@ -39,12 +39,12 @@
            pesq.setR2(r2);
            pesq.setR3(r3);
            pesq.setR4(r4);
-           pesq.setR4(r5);
-           pesq.setR4(r6);
-           pesq.setR4(r7);
-           pesq.setR4(r8);
-           pesq.setR4(r9);
-           pesq.setR4(r10);
+           pesq.setR5(r5);
+           pesq.setR6(r6);
+           pesq.setR7(r7);
+           pesq.setR8(r8);
+           pesq.setR9(r9);
+           pesq.setR10(r10);
            InserirDAO pesquisa = new InserirDAO();
            if (pesquisa.Inserir(pesq)==true){
                JOptionPane.showMessageDialog(null,"Dados Inseridos com sucesso !!!");

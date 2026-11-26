@@ -33,7 +33,7 @@ public class EditarDAO {
             sql.setInt(9, r8);
             sql.setInt(10, r9);
             sql.setInt(11, r10);
-            sql.setString(6, nm);
+            sql.setString(12, nm);
             int verifica=sql.executeUpdate();
             if (verifica>0){
                 JOptionPane.showMessageDialog(null,"Alteração Efetuada !!!");
